@@ -154,6 +154,14 @@ a { color: inherit; text-decoration: none; }
 .case__stats li { display: flex; flex-direction: column; }
 .case__stats strong { font-family: "Fraunces", serif; font-size: 1.9rem; color: var(--accent); line-height: 1; }
 .case__stats span { font-size: 0.84rem; color: var(--faint); margin-top: 8px; max-width: 22ch; }
+.case__spotlight {
+  margin-top: 30px; padding: clamp(20px, 2.6vw, 30px);
+  border: 1px solid rgba(224,169,109,0.28); border-radius: 12px;
+  background: linear-gradient(180deg, rgba(224,169,109,0.07), rgba(224,169,109,0.02));
+}
+.case__spotlight-label { display: inline-block; text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.72rem; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
+.case__spotlight h4 { font-family: "Fraunces", serif; font-size: 1.2rem; font-weight: 500; color: var(--text); margin-bottom: 10px; text-transform: none; letter-spacing: -0.01em; }
+.case__spotlight p { color: var(--muted); font-size: 0.97rem; line-height: 1.62; }
 .case__links { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 30px; padding-top: 26px; border-top: 1px solid var(--line); }
 .case__links a { color: var(--accent); font-weight: 600; font-size: 0.95rem; transition: opacity .25s; }
 .case__links a:hover { opacity: 0.7; }
